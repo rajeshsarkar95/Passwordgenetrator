@@ -1,0 +1,43 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+.input_boxs{
+  width: 97%;
+  background-color: aliceblue;
+  border: 1px rgb(82, 79, 79) solid;
+  height: 27px;
+}
+.input_box{
+  display: flex;
+}
+i{
+  font-size: 20px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.select_passworld{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.input_Enter_password{
+  justify-content: flex-end;
+  width: 25%;
+  
+}
+button{
+  height: 40px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: blue;
+  color:white;
+}
+button:hover{
+  background-color:cadetblue;
+  color: black;
+}
+.firstinput{
+  width: 50%;
+}
